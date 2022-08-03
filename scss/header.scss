@@ -1,0 +1,29 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background: $bg-col;
+    
+    div {
+      display: flex;
+      height: 4.37rem;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 9.5%;
+  
+      h5 {
+        font-size: 1.55rem;
+        font-weight: 400;
+        opacity: 0.8;
+      }
+  
+      a {
+        font-size: 1.25rem;
+      
+        padding: 0.75rem 1rem;
+        border-radius: 5px;
+        background: $button-col;
+        color: $bg-col;
+      }
+     }
+  }

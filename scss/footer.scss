@@ -1,0 +1,53 @@
+footer {
+    height: 20.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $bg-col;
+  
+      nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1rem;
+  
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          line-height: 1.7rem;
+      
+          li {
+            list-style-type: none;
+      
+            a {
+              color: $footer-col;
+              font-size: 1.215rem;
+              font-weight: 700;
+              opacity: 0.8;
+              }
+          }
+      }
+    }
+  
+    li:not(:last-of-type):after{content:'\00B7';padding:1rem;};
+  
+    p {
+      font-size: 1rem;
+      font-weight: 700;
+      opacity: 0.5;
+      margin: 1rem 0;
+    }
+  
+    .icons {
+      display: flex;
+      flex-direction: row;
+      padding-top: 1rem;
+      gap: 1.9rem;
+  
+      img {
+        width: 2.6em;
+      }
+    }
+  }

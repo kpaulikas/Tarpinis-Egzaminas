@@ -1,0 +1,53 @@
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    background: $bg-col;
+  
+    .container {
+      height: 77.2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: $features-text-col;
+      padding: 0 1rem;
+      gap: 8rem;
+  
+      .content {
+        max-width: 372px;
+  
+        h2 {
+          font-size: 2.2rem;
+          opacity: 0.85;
+          margin-bottom: 0.7rem;
+        }
+    
+        p {
+          font-size: 1.5rem;
+          line-height: 2.2rem;
+          opacity: 0.5;
+        }
+      }
+    }
+  
+    svg {
+      width: 6rem;
+      margin-bottom: 0.8rem;
+    }
+  
+    .svg-1 {
+      stroke: $icon-col;
+    }
+  
+    .svg-2 {
+      fill: $icon-col;
+    }
+  
+    .svg-3 {
+      fill: $bg-col;
+      stroke: $icon-col;
+    }
+  }

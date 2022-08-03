@@ -1,0 +1,131 @@
+@media (min-width: 1000px) {
+
+    header{
+  
+      div {
+        padding: 0 13.5%;
+      }
+    }
+  
+    .hero-top,
+    .hero-bottom {
+      display: flex;
+      justify-content: center;
+      height: 50.8rem;
+      background-size: 130%;
+  
+      .content {
+        align-items: center;
+  
+        h1 {
+          font-size: 4rem;
+          max-width: 1200px;
+        }
+  
+        .form {
+          flex-direction: row;
+          width: 69.2%;
+          gap: 0.65rem;
+          
+          .email {
+            width: 74.5%;
+          }
+  
+          .signup {
+            width: 25%;
+          }
+        }
+      }
+    }
+  
+    .features {
+      max-height: 35.4rem;
+  
+      .container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+  
+        .content {
+          max-width: 350px;
+        }
+      }
+    }
+  
+  
+    main {
+      max-height: 112.5rem;
+  
+      .container {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+      }
+  
+      .container:nth-of-type(even) {
+        flex-direction: row;
+      }
+  
+      img {
+        width: 50%;
+        object-fit: cover;
+      }
+  
+      .content {
+        width: 50%;
+        justify-content: center;
+        padding: 0 7.5%;
+      }
+    }
+  
+    .reviews {
+      max-height: 46.7rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      .container {
+        flex-direction: row;
+  
+        .content {
+          display: flex;
+          justify-content: flex-start;
+          margin: 2rem 3rem;
+  
+        }
+      }
+    }
+  
+    .hero-bottom {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      max-height: 26.1rem;
+  
+      .content {
+        max-width: 100%;
+  
+        h1 {
+          font-size: 2.5rem;
+        }
+  
+        .form {
+          margin: 2rem 0;
+          max-width: 52rem;
+        }
+      }
+    }
+  
+    footer {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 10%;
+      max-height: 15rem;
+  
+      nav {
+        align-items: flex-start;
+      }
+    }
+  }

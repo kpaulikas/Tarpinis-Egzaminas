@@ -1,0 +1,65 @@
+.hero-top,
+.hero-bottom {
+  padding-top: 4.35rem;
+  background: rgba(0, 0, 0, 0.25) url(../images/bg-masthead.jpg);
+  background-blend-mode: darken;
+  background-position-y: -10rem;
+  background-position: center;
+  height: 51.2rem;
+
+  margin: 0 auto;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10rem 0;
+    max-width: 1900px;
+
+    h1 {
+      font-size: 2.5rem;
+      color: $bg-col;
+      padding: 0 1.5rem;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      margin-top: 3.8rem;
+      padding: 0 1.2rem;
+      gap: 0.65rem;
+
+      .email {
+        background: $bg-col;
+        color: $email-col;
+        padding: 0.9rem 1.3rem;
+        font-size: 1.56rem;
+        text-align: start;
+        border-radius: 5px;
+        border: none;
+      }
+
+      .signup {
+        background: $button-col;
+        color: $bg-col;
+        padding: 0.9rem 1.3rem;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        border: none;
+      }
+    }
+  }
+}
+
+.hero-bottom {
+  height: 36.4rem;
+
+  .content {
+    padding: 4.5rem 0;
+
+    .form {
+      margin: 2rem 0;
+    }
+  }
+}
